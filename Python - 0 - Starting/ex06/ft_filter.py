@@ -5,4 +5,4 @@ def ft_filter(function, iterable):
     """
     if function is None:
         return (item for item in iterable if item)
-    return (item for item in [x for x in iterable if function(x)])
+    return (item for item in [x for x in iterable if function(x)]) # Need to look at list comphrehension again
