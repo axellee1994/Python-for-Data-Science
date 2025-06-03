@@ -1,4 +1,3 @@
-import sys
 
 
 def ft_tqdm(lst: range) -> None:
@@ -6,7 +5,7 @@ def ft_tqdm(lst: range) -> None:
     bar_length = 50
 
     for i, val in enumerate(lst):
-        progress = (i + 1) / total 
+        progress = (i + 1) / total
         filled_length = int(progress * bar_length)
         bar = "=" * filled_length + ">" + " " * \
             (bar_length - filled_length - 1)
