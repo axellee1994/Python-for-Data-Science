@@ -14,8 +14,6 @@ def character_count(text):
 
     """
 
-    punctuation_characters = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
-
     upper_count = 0
     lower_count = 0
     punctuation_count = 0
@@ -32,7 +30,7 @@ def character_count(text):
             spaces_count += 1
         if char.isdigit():
             digits_count += 1
-        if char in punctuation_characters:
+        if char in string.punctuation:
             punctuation_count += 1
 
     total = len(text)
