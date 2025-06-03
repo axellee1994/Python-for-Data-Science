@@ -1,6 +1,7 @@
 import sys
 import string
 
+
 def character_count(text):
     """Counts the number of uppercase letters, lowercase letters
 
@@ -52,8 +53,9 @@ def main():
         raise AssertionError("Too many arguments provided.")
     else:
         text = sys.argv[1]
-    
+
     character_count(text)
+
 
 if __name__ == "__main__":
     main()
