@@ -24,13 +24,13 @@ def character_count(text):
     for char in text:
         if char.isupper():
             upper_count += 1
-        if char.islower():
+        elif char.islower():
             lower_count += 1
-        if char.isspace():
+        elif char.isspace():
             spaces_count += 1
-        if char.isdigit():
+        elif char.isdigit():
             digits_count += 1
-        if char in string.punctuation:
+        elif char in string.punctuation:
             punctuation_count += 1
 
     total = len(text)
