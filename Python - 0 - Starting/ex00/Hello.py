@@ -8,6 +8,9 @@ print(type(ft_tuple))   # Ordered, unchangeable and allow duplicates
 print(type(ft_set))     # Unordered, unchangeable, and no duplicates
 print(type(ft_dict))    # Ordered, changeable and no duplicates
 
+#Modifying list value
+ft_list[1] = "World"
+
 #Converting tuple(immutable) to list(mutable) and modifying it
 ft_tuple_convert = list(ft_tuple)
 ft_tuple_convert[1] = "Singapore"
