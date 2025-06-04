@@ -1,6 +1,10 @@
 
 
 def ft_tqdm(lst: range) -> None:
+    """
+    A simple implementation of a
+    progress bar similar to tqdm.
+    """
     total = len(lst)
     bar_length = 50
 
